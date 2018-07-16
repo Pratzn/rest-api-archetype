@@ -1,0 +1,8 @@
+Module can be apply:
+
+th.or.set.module1.config
+th.or.set.module1.controller
+th.or.set.module1.service
+
+th.or.set.module2.controller
+th.or.set.module2.service

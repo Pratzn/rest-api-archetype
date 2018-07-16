@@ -144,7 +144,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.tmx.MainApplication</mainClass>
+                            <mainClass>th.or.set.SetRestApiArchetypeApplication</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
