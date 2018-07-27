@@ -1,6 +1,17 @@
+spring:
+  datasource: 
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:mem:fscompdb
+    data-username: sa
+    data-password: 
+    
+    
+
 server:
   port: 8080
   servlet:
     context-path: /set
+    
 logging:
-  config: classpath:log4j2.xml
+  path: .
+  file: rest-api.log
