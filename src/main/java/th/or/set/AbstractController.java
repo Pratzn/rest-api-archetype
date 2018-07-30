@@ -6,7 +6,7 @@ import java.net.UnknownHostException;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.context.request.RequestContextHolder;
 
-public abstract class AbstractController<T> extends AbstractComponent<T>{
+public abstract class AbstractController<T> extends AbstractComponent<T> implements Root{
 
 	public AbstractController() {}
 	
